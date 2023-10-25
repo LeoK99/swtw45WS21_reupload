@@ -1,4 +1,16 @@
-# swt21w45
+
+
+# swt21w45 - Reupload
+
+This is just a Reupload of the Project i did together as a group of 5 at TU Dresden in the Winter of 21/22.  
+All members of the group consented to me reuploading this repo, and the ones that wanted to, were added as contriubtors.  
+All files i changed afterwards are noted below:
+- this readme
+
+
+**Following is the content of the old README.md:**
+
+-----
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
