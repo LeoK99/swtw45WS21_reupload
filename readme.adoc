@@ -1,3 +1,12 @@
+This is just a Reupload of the Project i did together as a group of 5 at TU Dresden in the Winter of 21/22.  
+All members of the group consented to me reuploading this repo, and the ones that wanted to, were added as contriubtors.  
+All files i changed afterwards are noted below:
+* this readme.adoc
+* the second README.md
+
+Following is the content of the original "readme.adoc":
+
+
 image:https://github.com/st-tu-dresden-praktikum/swt21w45/workflows/CI%20build/badge.svg["CI Build", link="https://github.com/st-tu-dresden-praktikum/swt21w45/actions"]
 image:https://img.shields.io/badge/SonarQube-checked-blue?logo=sonarqube["SonarQube status", link="https://st-lab-ci.inf.tu-dresden.de/sonarqube/"]
 
