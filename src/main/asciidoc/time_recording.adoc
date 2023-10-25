@@ -1,0 +1,41 @@
+A= Zeiterfassung für Gruppe swt21w45
+
+Notieren Sie die Zeit in Minuten für jeden Entwickler und – getrennt davon – für Team-Treffen pro Woche (Wochengranularität).
+Die individuell erfasste Zeit beinhaltet auch das Lesen von Dokumentationen, Besprechungen mit Teamkollegen und sonstige auf das Praktikum bezogene Aufgaben, jedoch *nicht* das Team-Treffen (= letzte Spalte).
+
+// See http://asciidoctor.org/docs/user-manual/#tables
+[option="headers"]
+|===
+|Woche |Frode |Eric |Mahmoud |Yujia |Leo |- |Meeting
+|1     |…     |…    |…       |…     |…   |… |…
+|2     |2     |2    |4       |2     |2   |… |7
+|3     |15    |11   |11      |10    |8   |… |6
+|4     |8     |7    |6       |5     |12  |… |7
+|5     |6     |3    |16      |8     |10  |… |6
+|6     |9     |17   |14      |10    |12  |… |2
+|7     |7     |6    |9       |10    |10  |… |3
+|8     |14    |15   |12      |9     |8   |… |2
+|9     |16    |18   |6       |20    |16  |… |2
+|10    |2     |7    |7       |4     |2   |… |…
+|11    |12    |11   |5       |6     |8   |… |…
+|12    |18    |16   |6       |11    |7   |… |2
+|13    |11    |8    |9       |7     |16  |… |2
+|14    |5     |4    |4       |3     |4   |… |1
+|15    |18    |11   |12      |8     |10  |… |1
+|16    |20    |23   |4       |5     |8   |… |3
+|17    |…     |…    |…       |…     |…   |… |…
+|===
+
+Bitte tragen Sie am Ende des Praktikums noch folgende weitere Werte ein:
+Summe der Arbeitsstunden pro Student:
+
+SUMME(SPALTE(DevX))
+
+
+Arbeitsstunden pro Woche pro Student:
+
+SUMME(SPALTE(DevX)) / 12
+
+Durchschnittliche Arbeitszeit aller Studenten pro Woche:
+
+(SUMME(SPALTE(Dev1)) + SUMME(SPALTE(Dev2)) + SUMME(SPALTE(Dev3)) + SUMME(SPALTE(Dev4)) + SUMME(SPALTE(Dev5)) +SUMME(SPALTE(Dev6))) / 6

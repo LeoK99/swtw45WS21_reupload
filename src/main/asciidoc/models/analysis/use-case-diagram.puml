@@ -1,0 +1,59 @@
+@startuml
+
+'packages
+
+package AccountManagement {
+(erstellen von Nutzern)
+(löschen von Nutzern)
+(Verwaltung der \n AccountManagment-Rechte)
+}
+
+
+package ADRInteraktionen {
+
+package ADRBearbeitung {
+(ADR erstellen)
+(ADR bearbeiten)
+(ADR löschen)
+(ADR taggen)
+}
+
+package ADRVerwaltung {
+(Liste vorhandener\nADRs anzeigen)
+(ADR-Details anzeigen)
+}
+
+}
+
+
+package KollaborativesArbeiten {
+
+frame ADREinladungenZum: {
+rectangle Einsehen
+rectangle Kommentieren
+rectangle Bearbeiten
+rectangle Reviewen
+}
+
+package ADRFeedback {
+(Kommentar schreiben)
+(Kommentar beantworten)
+(Teilnahme an\ngeschlossenen Reviews)
+}
+
+package ADRAbnahme {
+(proposing von ADRs)
+(Abstimmung über ADRs)
+}
+
+}
+
+'Actors
+:Admin:
+:Developer:
+
+Admin --> AccountManagement
+Developer -> ADRInteraktionen
+Developer ---> KollaborativesArbeiten
+Admin <. Developer
+@enduml

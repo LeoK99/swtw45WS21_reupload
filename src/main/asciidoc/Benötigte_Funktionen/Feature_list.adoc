@@ -1,0 +1,10 @@
+[options="header"]
+[cols="1, 1, 1"]
+|===
+|Feature/ Website  |Beschreibung                                               |Status/ Dev
+|Kanban Board |Ein Kanban Board zur Übersicht von ADR's und deren Status | Prototypisch Vorhanden (Yujia)
+|Login Page |Eine einfache Login-Seite |Vorhanden (Eric)
+|ADR Editor |Ein Rich text Editor für die Erstellung von ADR's| In Bearbeitung (Leo， Yujia)
+|User Preferences Page | Seite zum Bearbeiten von Benutzername, Passwort und Profilbild| (Prototypisch) Vorhanden (Eric)
+|ADR Details | details(Namen, Title, Context, Decision, Consequences about ADRs| Prototypisch Vorhanden (Yujia) 
+|===

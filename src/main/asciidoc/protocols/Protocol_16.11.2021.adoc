@@ -1,0 +1,47 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 16.11.2021
+
+Ort:      Online (BBB) +
+Beginn:   17:00 Uhr +
+Ende:     18:25 Uhr
+
+__Schriftführer:__ Yujia Hu
+
+*Nächstes Treffen:* +
+25.11.2021, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Präsentation über developer_documentation bei Eric
+- Vorschlag über developer_documentation: Mongodbbild, GUI Prototyp hinzufügen
+- Präsentation über ADR-Workbench bei Eric und Mahmoud
+- Pre-Alarm für Midterm-Präsentation
+
+== Retrospektive des letzten Sprints
+- developer_documentation
+- Beginn von ADR-Workbench
+
+== Aktueller Stand
+- developer-documentation V1.0
+- Beispielprojekt
+
+
+== Planung des nächsten Sprints
+- Verbesserung developer-documentation
+- Projekt weitermachen
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |developer-documentation| -                  |betrifft alle Mitglieder |offen
+|-     |ADR-Workbench          | -                  |betrifft alle Mitglieder |offen

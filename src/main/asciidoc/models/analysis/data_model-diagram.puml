@@ -1,0 +1,160 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+package adr {
+
+    class Comment{
+        + void reply()
+        + String getText()
+    }
+    Comment "0..*" *-- Comment
+
+    class CypherConstraint{
+    }
+
+   package external {
+        enum ExternalContentType {
+            TEXT
+            IMAGE
+        }
+        interface ExternalContent{
+            + ExternalContentType getType()
+        }
+        ExternalContentType <-down- ExternalContent: uses <
+   }
+
+    package status {
+        enum ADRStatusType {
+            CREATED,
+            INTERNALLY_PROPOSED,
+            PROPOSED,
+            APPROVED,
+            REFUSED,
+            SUPERSEDED
+        }
+
+        class ADRStatusCreated{}
+        class ADRStatusInternallyProposed{
+            - ADRReview internalReview
+        }
+        class ADRStatusProposed{
+            - ADRReview publicReview
+        }
+        class ADRStatusApproved{
+            - ADRReview publicReview
+        }
+        class ADRStatusRefused{
+            - ADRReview publicReview
+        }
+        class ADRStatusSuperseded{
+            - Optional<ADRReview> review
+            - ADR supersededBy
+        }
+
+        interface ADRStatus{
+            + ADRStatusType getType()
+            + Optional<ADRReview> getReview()
+        }
+        ADRStatus <|-up- ADRStatusCreated: implements <
+        ADRStatus <|-up- ADRStatusInternallyProposed: implements <
+        ADRStatus <|-up- ADRStatusProposed: implements <
+        ADRStatus <|-up- ADRStatusApproved: implements <
+        ADRStatus <|-up- ADRStatusRefused: implements <
+        ADRStatus <|-left- ADRStatusSuperseded: implements <
+        ADRStatus -right-> ADRStatusType: uses >
+
+    }
+
+    package image{
+        class Image {
+            - String name
+        }
+    }
+
+    package voting {
+        enum VoteType{
+            FOR,
+            AGAINST
+        }
+        class ADRReview{
+            - Map<UserId, Optional<VoteType>> Votes
+            + addVoter()
+            + putVote()
+        }
+    }
+
+    package notifications{
+        enum NotificationType{
+            VOTE_PENDING
+        }
+
+        interface Notification{
+            + NotificationType getType()
+        }
+        class VotingPendingNotification{
+            + getADRReview()
+        }
+        Notification <|-right- VotingPendingNotification
+
+    }
+
+    package users{
+        class User {
+            String UserName
+            Password pwd
+            ...
+        }
+
+        class UserRights {
+            boolean canManageUsers()
+            boolean canManageVoting()
+            boolean canSeeAllADRs()
+        }
+
+        class AccessRights {
+            - int flags
+        }
+
+        class AccessGroup {
+        }
+        UserRights -right-* User: has <
+        AccessGroup o-down- User: > references
+        AccessRights -right-o AccessGroup: has <
+    }
+
+    class ADR {
+        List<String> tags
+        String name
+        String title
+        String context
+        String decision
+        String consequences
+    }
+
+
+    class ADRContainer {
+        - ADRContainer parent
+        - String name
+    }
+    ADRContainer o-- "*" ADRContainer: contains >
+    ADRContainer "1" o-- "*" ADR: owned by <
+    ExternalContent "0..*" --o ADR: references <
+    ADR o-- "0..*" ADR: references >
+    Comment "comments 0..*" --o ADR: contains <
+    ADR o-up- "0..*" CypherConstraint: contains >
+
+    ADR *-- "0..*" AccessGroup: contains >
+    ADR *--- User: written by >
+
+    ADRReview --o ADRStatus: may have <
+    User --o  ADRReview: references <
+    Notification "*" --o User: has <
+    ADRStatus --* ADR: has an <
+    Image --|> ExternalContent: implements >
+
+    VotingPendingNotification -down-> ADRReview: references >
+
+}
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!include ../c4-Model/lib/C4_Context.puml
+
+Person(user1, "General User", "Dev/Admin/Architect/...\n Reads, Edits, Votes, etc. \n on ADRs")
+
+System(adrWorkbench, "ADR-Workbench", "")
+
+Rel(user1, adrWorkbench, "Interacts")
+
+SHOW_LEGEND()
+
+@enduml

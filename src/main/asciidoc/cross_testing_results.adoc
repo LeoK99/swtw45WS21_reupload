@@ -1,0 +1,38 @@
+= Cross-Testing Results
+
+__Durchführende Gruppe:__ swt21w45
+
+__Anwendung von Gruppe:__ swt21w46
+
+== QA
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="header"]
+|===
+|Frage |Antwort
+| Was genau zählt die App und entspricht das der Aufgabenstellung? (Öffnen, Reloads, Klicks innerhalb des Issues)
+    | Öffnen und Reloads werden gezählt, Klicks innerhalb des Issues nicht.
+| Zählt die App richtig?
+    | Ja, der Zähler wird tatsächlich bei jedem Reload der Seite und Öffnen des Issues um 1 erhöht.
+| Werden gleichzeitige Zugriffe von mehreren Personen korrekt erfasst?
+    | Ja. Getestet bei gleichzeitigem Zugriff vom selben Nutzer von verschiedenen Browsern und bei gleichzeitigem Zugriff verschiedener Nutzer von verschiedene Browser.
+| Werden sehr häufige Zugriffe in einem kurzen Zeitraum korrekt erfasst?
+    | Nein. Anzahl der Ansichten im Diagramm wird nicht aktualisiert, wenn man die Diagrammseite schnell schließt und wieder öffnet.
+| Wurde die Aufgabenstellung erfüllt?
+    | ja.
+|===
+
+== Benutzerfreundlichkeit
+- Das Diagram sieht benutzerfreundlich aus.
+- rechts oberhalb vom Diagramm sollte der Button "Neuste zuerst" versteckt werden
+
+== Verbesserungsvorschläge und Feedback
+- Echtzeit-Updates implementieren: bei Änderung der Statistiken durch andere Nutzer könnte das Diagramm aktualisiert werden.
+
+
+== Fehler-Report
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="header"]
+|===
+|Fehler-Nr |Beschreibung
+| 1 | Anzahl der Ansichten im Diagramm wird nicht aktualisiert, wenn man die Diagrammseite schnell schließt und wieder öffnet. |
+|===

@@ -1,0 +1,40 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 13.01.2022
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     17:15 Uhr
+
+__Schriftführer:__ Mahmoud Hatem Elnashar
+
+*Nächstes Treffen:* +
+20.01.2022, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Cross-Testing besprochen
+- Allgemeinen Fortschritt vom Projekt besprochen
+- Zeitplanung von der kommenden Präsentation
+- Flexibilität von Muss/Kann Kriterien kurz besprochen
+
+== Retrospektive des letzten Sprints
+- teilweise Fertigstellung der Beispielprojekte
+- Vorbereitung für den kommenden Cross-Testing
+
+== Aktueller Stand
+- Funktionierende Applikation (mit Ausnahme von verteilten Bugs)
+- Pflichtenheft fertig
+- Interne automatische Tests funktionieren
+- Erste Tests mit Selenium für das Frontend
+
+== Planung des nächsten Sprints
+- Besprechung der Resultate vom Cross-Testing (bis 20.01.22)

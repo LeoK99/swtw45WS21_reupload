@@ -1,0 +1,6 @@
+:host([indeterminate]) [part='checkbox'], :host([checked]) [part='checkbox'] {
+    background-color: #65b32e;
+}
+
+
+

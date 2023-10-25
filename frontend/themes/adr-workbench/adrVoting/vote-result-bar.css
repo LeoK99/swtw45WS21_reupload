@@ -1,0 +1,105 @@
+.adr-vote-result-bar-main-layout{
+    width: 100%;
+    color: white;
+    min-height: 35px;
+    background-color: transparent;
+}
+
+.adr-vote-positive-bar{
+    background-color: #65b32e;
+    border-radius: 0.3vmax 0 0 0.3vmax;
+    /*width: 25%;*/
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.adr-vote-full-positive-bar{
+    border-radius: 0.3vmax 0.3vmax 0.3vmax 0.3vmax;
+}
+
+.adr-vote-negative-bar{
+    text-align: center;
+    border-radius: 0 0.3vmax 0.3vmax 0;
+    background-color: rgb(238, 56, 21);
+    /*width: 25%;*/
+    margin-left: auto;
+    margin-right: 0;
+    height: 100%;
+}
+
+.adr-vote-full-negative-bar{
+    border-radius: 0.3vmax 0.3vmax 0.3vmax 0.3vmax;
+}
+
+.adr-vote-remaining-voters-div{
+    text-align: center;
+    vertical-align: middle;
+    /*width: 50%;*/
+    background-color: rgba(180, 180, 180, 0.5);
+    float: left;
+    height: 100%;
+    color: black;
+}
+
+.adr-vote-remaining-voters-div-all-rounded{
+    border-radius: 0.3vmax 0.3vmax 0.3vmax 0.3vmax;
+}
+
+.adr-vote-remaining-voters-div-left-rounded{
+    border-radius: 0.3vmax 0 0 0.3vmax;
+}
+
+.adr-vote-remaining-voters-div-right-rounded{
+    border-radius: 0 0.3vmax 0.3vmax 0;
+}
+
+.adr-vote-remaining-voters-div-red{
+    text-align: center;
+    vertical-align: middle;
+    /*width: 50%;*/
+    background-color: rgb(238, 56, 21);
+    float: left;
+    height: 100%;
+    color: black;
+}
+
+.adr-vote-positive-label{
+    display: flex;
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.adr-vote-negative-label{
+    display: flex;
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.adr-vote-remaining-label{
+    display: flex;
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.adr-vote-positive-div-layout{
+    width: 90%;
+    border-radius: 15px;
+    clear: none;
+}
+
+.adr-vote-negative-div-layout{
+    background-color: rgba(75, 74, 74, 0.3);
+    width: 0;
+    border-radius: 10px;
+}
+
+.adr-vote-remaining-voters-div-layout{
+    background-color: grey;
+    width: 10%;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,26 @@
+.comment-section-layout{
+    background-color: rgba(29, 154, 134, 0.15);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.comment-write-section-layout{
+    padding: 0;
+    width: 100%;
+}
+
+.adr-vote-message-layout{
+    border-radius: 0.3vmax 0.3vmax 0.3vmax 0.3vmax;
+    max-width: 90%;
+    background-color: rgba(101, 179, 46, 0.25);
+    color: black;
+}
+
+.adr-vote-send-message-layout{
+    width: 100%
+
+}
+
+.adr-vote-message-text-area{
+    width: 60%;
+}

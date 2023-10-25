@@ -1,0 +1,9 @@
+[options="header"]
+[cols="1, 1, 1"]
+|===
+|Funktionen  |Beschreibung                                               |Status
+|findAllByStatus((ADRStatusType) status)|find all the ADRs by status (needs an ADRStatusType Enum-Option f.e. findAllByStatus(ADRStatusType.APPROVED)) of ADRs in ADRRepository, returns a List of ADRs| implemented
+|getProfilePicture()| get the profile picture of a user| pending
+|setProfilePicture()| set the profile picture of a user| pending
+|===
+

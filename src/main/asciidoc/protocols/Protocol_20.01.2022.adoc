@@ -1,0 +1,41 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 20.01.2022
+
+Ort:      Online (BBB) +
+Beginn:   17:15 Uhr +
+Ende:     17:45 Uhr
+
+__Schriftführer:__ Eric Meyer
+
+*Nächstes Treffen:* +
+27.01.2022, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Cross-Testing besprochen (besonders Fehler mit Virtual Machine von TU Dresden)
+- Allgemeinen Fortschritt vom Projekt besprochen
+
+== Retrospektive des letzten Sprints
+- Resultate Cross-Testing wurden besprochen
+- Feedback zum Cross-Testing der anderen Gruppe wurde gegeben / zurückgeschickt
+
+
+== Aktueller Stand
+- Funktionierende Applikation (mit Ausnahme von verteilten Bugs)
+- Pflichtenheft fertig
+- Interne automatische Tests funktionieren
+- Erste Tests mit Selenium für das Frontend
+- Cross-Testing fast vollständig vorbereitet (Fehler: keine Ports der VM offen -> keine Zugriffsmöglichkeiten)
+
+== Planung des nächsten Sprints
+- Cross-Testing soweit abschließen, dass die andere Gruppe die Applikation austesten kann
+- Muss-Kriterien vollständig implementieren (Applikation möglichst funktional final fertigstellen)

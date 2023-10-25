@@ -1,0 +1,75 @@
+@startuml
+actor       Nutzer1     order 3
+actor        Nutzer2     order 0
+participant ADR       order 24
+collections ADRs       order 25
+database    Datenbank  order 20
+participant Workbench order 5
+
+Nutzer1   -> Workbench ++ : Erstelle ADR "ADR"
+Workbench -> ADR       ** : erstelle neues ADR ("ADR")
+activate ADR
+ADR       -> ADR          : initialisiere
+return
+Workbench -> Datenbank    : speichere "ADR"
+destroy ADR
+return
+
+
+Nutzer1   -> Workbench ++ : ändere "ADR"-Eigenschaft
+Workbench -> Datenbank ++ : lade "ADR"
+Datenbank -> ADR          : erstelle ADR ("ADR") aus Daten
+Datenbank--> Workbench -- : ADR
+Workbench -> ADR       ++ : ändere Eigenschaften
+ADR       -> ADR          : ändere Eigenschaften
+return
+activate Workbench
+Workbench -> Datenbank    : speichere "ADR"
+Workbench -> Nutzer2      : aktualisiere UI entsprechend der Änderungen
+return
+destroy ADR
+return
+
+
+Nutzer1   -> Workbench ++ : starte Review für "ADR"
+Workbench -> Datenbank ++ : lade "ADR"
+Datenbank -> ADR          : erstelle ADR ("ADR") aus Daten
+Datenbank--> Workbench -- : ADR
+Workbench -> ADR       ++ : starte Review
+ADR       -> ADR          : ändere Status
+ADR       -> ADR          : lade erlaubte Voter ein
+return
+activate Workbench
+Workbench -> Datenbank    : speichere "ADR"
+Workbench -> Nutzer2      : aktualisiere UI entsprechend der Änderungen
+return
+destroy ADR
+return
+
+
+Nutzer1   -> Workbench ++ : beende Review für "ADR"
+Workbench -> Datenbank ++ : lade "ADR"
+Datenbank -> ADR          : erstelle ADR ("ADR") aus Daten
+Datenbank -> Workbench -- : ADR
+Workbench -> ADR       ++ : beende Review
+ADR       -> ADR          : überprüfe Voting Stand
+ADR       -> ADR          : ändere Status entsprechend
+ADR       -> ADR       ++ : Approved?
+ADR       -> Datenbank ++ : lade alle ADRs aus Superseeded Liste
+Datenbank -> ADRs      ** : erstelle ADRs aus Daten
+Datenbank--> ADR       -- : ADRs
+ADR       -> ADRs      ++ : superseed
+ADRs      -> ADRs         : ändere Status zu Superseeded
+return
+ADR       -> Datenbank    : speichere "ADRs"
+ADR      --> ADRs      -- :
+destroy ADRs
+return
+activate Workbench
+Workbench -> Datenbank    : speichere "ADR"
+Workbench -> Nutzer2      : aktualisiere UI entsprechend der Änderungen
+return
+destroy ADR
+return
+
+@enduml

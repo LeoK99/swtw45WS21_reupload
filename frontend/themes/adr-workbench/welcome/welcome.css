@@ -1,0 +1,44 @@
+.heading{
+    font-size: 30px;
+}
+
+.sub-heading{
+    font-size: 24px;
+    alignment: left;
+    font-weight: bold;
+}
+
+.welcome-div{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.motivation-div{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.join-div{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plain-text{
+
+}
+
+.login-button{
+    color:white;
+    width: 10%;
+    height: 5%;
+    background-color: #65b32e;
+    margin-left: 10%;
+}
+
+.login-button:hover{
+    background-color: #559329;
+}
+
+

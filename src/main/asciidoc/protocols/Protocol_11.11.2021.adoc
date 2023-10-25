@@ -1,0 +1,44 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 11.11.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     17:25 Uhr
+
+__Schriftführer:__ Leonard Kahl
+
+*Nächstes Treffen:* +
+16.11.2021, 17:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Pflichtenheft abgenommen
+- Beispiel-Projekte von Frode und Leonard angesehen
+- jQAssistant von Stephan vorgestellt
+- Nächstes treffen wurde wegen Terminkonflikten auf den 16.11.21 17:30 verschoben
+  
+== Retrospektive des letzten Sprints
+- Pflichtenheft wurde als Pre-Final abgenommen
+
+== Aktueller Stand
+- Grundlegender Tech-Stack wurde beschlossen
+
+== Planung des nächsten Sprints
+- Erstellung der Entwicklerdokumentation (bis 16.11.21)
+- Erstellen eines "Bare-Bones" Prototypen  (bis 18.11.21)
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |Erstellung der Entwicklerdokumentation| -           |betrifft alle Mitglieder |offen 
+|===

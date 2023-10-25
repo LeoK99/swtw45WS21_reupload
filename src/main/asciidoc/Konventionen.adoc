@@ -1,0 +1,25 @@
+
+== Allgemein:
+* Verwendung von lombok für Getter/Setter etc.
+
+== Klassen:
+* UpperCamelCase
+
+== Variablen:
+* statische Variablen in GROßBUCHSTABEN mit UNTERSTRICHEN_ZWISCHEN_EINZELNEN_WÖRTERN
+* Variablen vor Funktionen definieren
+* lowerCamelCase
+* Angabe von Sichtbarkeiten ("private"/...)
+* Annotationen (z.B. lombok) über Variablen (nicht in selber Zeile mit Variablen)
+* Leerzeile zwischen verschiedenen Variablengruppen
+
+== Funktionen:
+* lowerCamelCase
+* Angabe von Sichtbarkeiten
+* Annotationen über Funktionen (nicht in selber Zeile mit Variablen)
+* Leerzeile zwischen Funktionen
+* Funktionsparameter immer als "@NonNull" (wenn möglich "final") deklarieren
+* "optional" für Parameter mit möglicher Null Belegung
+
+== Test:
+* Struktur: Gliederung in  //Given ->  //When ->  //Then

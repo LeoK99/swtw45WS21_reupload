@@ -1,0 +1,61 @@
+= Test-Plan
+
+Dieser Testplan stellt eine vereinfachte Version der IEEE 829-1998 Vorlage dar.
+
+== Einführung
+Das Dokument erläutert verschiedene Testfälle der ADR-Workbench-Applikation.
+So werden Unit-Tests, Integrations-Tests und Akzeptanz-Tests einbezogen. +
+Die Zielgruppe unterscheidet sich je nach Testfall. +
+Unit-Tests sollen Entwicklern der ADR-Workbench Informationen über mögliche Fehler in den einzelnen Komponenten / Klassen liefern, während Integrations-Tests die Zusammenarbeit und Interaktion zwischen einzelnen Komponenten testet. +
+Akzeptanztestfälle sollen testen, wie gut der Anwender mit der Software (ADR-Workbench) arbeiten und interagieren kann.
+
+== Aufbau der Testbezeichner
+* 1.X: Management von Accounts
+* 2.X: Management von ADRs
+* 3.X: kollaborative Arbeit an ADRs (teils umgesetzt... ständige Änderung -> nur rudimentäre Tests)
+
+== Test Gegenstände
+
+* einzelne Komponenten
+* Interaktion zwischen einzelnen Komponenten
+* Anwender-Funktionalitäten
+
+== Zu testende Funktionalitäten
+
+* Bibliotheken
+* Komponenten (und deren Funktionen)
+
+== Nicht zu testende Funktionalitäten
+* Spring-Framework
+* Vaadin-Framework
+* MongoDB-Datenbank
+
+== Umgebungsvoraussetzungen
+
+* Datenbestand (ADRs und Nutzer) benötigt
+* JUnit für Unit-Tests
+* Software wird auf entsprechendem Server ausgeführt und arbeitet lokal
+
+== Testfälle und Verantwortlichkeit
+Jede testbezogene Aufgabe muss einem Ansprechpartner zugeordnet werden.
+
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="headers"]
+|===
+|ID |Anwendungsfall |Vorbedingungen |Eingabe |Ausgabe
+|1.1  |Management von Accounts - Erstellen eines Accounts |Username existiert nicht | Username, Passwort, Zugriffsrechte | Account erfolgreich angelegt
+|1.1  |Management von Accounts - Modifizieren eines Accounts |Nutzer eingeloggt | Änderungen eingeben | Änderungen erfolgreich abgespeichert
+|1.2  |Management von Accounts - Löschen eines Accounts durch einen Admin |Username existiert - Zugriffsrechte des Admins reichen | Username | Account erfolgreich gelöscht
+|1.3  |Management von Accounts - Löschen eines Accounts durch denselben Nutzer |Eingeloggt | Keine | Account erfolgreich gelöscht
+|1.4  |Management von Accounts - Löschen eines Accounts, das einen ADR besitzt |Eingeloggt | keine | Besitzer von den jeweiligen ADRs wird zum Root-User
+|1.5  |Management von Accounts - Bearbeitung der Rechte eines Accounts von einem Admin |Nutzer existiert | Username eingeben | Zugriffsrechte vom Nutzer können bearbeitet werden.
+|2.1  |Management von ADRs - Erstellen eines ADRs | Keine | Angabe aller Sektionen | Neues ADR in Status created - ADR sichtbar im ADR-Browser
+|2.2  |Management von ADRs - ADR zum Voting bereitstellen | ADR in Status Created | Keine | ADR in Status "Proposed"
+|2.3  |Management von ADRs - Votes zu einem ADR abgeben | ADR in Status "Proposed" | Nutzer ist eingeladen worden | Votes werden gezählt - ADR bleibt in Status "Proposed"
+|2.4  |Management von ADRs - Voting abschließen | ADR in Status "Proposed" | keine | Nächster Status wird anhand der Votes bestimmt
+|2.5  |Management von ADRs - Suche nach bereits existierenden Tags während der Erstellung | Tags existieren | Tags-Präfixe | Entsprechende Tags werden angezeigt
+|2.6  |Management von ADRs - Suche nach ADR im Browser durch den Pfad/Titel oder Tag | ADR existiert - genügende Zugriffsrechte des Nutzers | Tag oder Pfad/Titel | ADR wird angezeigt
+|2.7  |Management von ADRs - Löschen eines ADRs | ADR existiert - genügende Zugriffsrechte des Nutzers | Pfad/Titel des ADRs im ADR-Browser eingeben | ADR wird gelöscht
+|2.8  |Management von ADRs - Bearbeitung eines ADRs | ADR existiert | Pfad/Titel des ADRs im ADR-Browser eingeben | ADR wird zur Bearbeitung geöffnet
+
+|===

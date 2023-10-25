@@ -1,0 +1,28 @@
+.adr-vote-heading{
+    font-size: 30px;
+}
+
+.adr-vote-small-heading{
+    font-size: 20px;
+}
+
+.adr-vote-pro-label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adr-vote-contra-label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adr-vote-separator-label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

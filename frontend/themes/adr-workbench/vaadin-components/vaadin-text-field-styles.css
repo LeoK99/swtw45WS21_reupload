@@ -1,0 +1,8 @@
+/*Change color of Label of TextField when focused*/
+:host([focused]:not([readonly])) [part="label"] {
+    color: #65b32e;
+}
+
+
+
+

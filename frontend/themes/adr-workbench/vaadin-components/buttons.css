@@ -1,0 +1,29 @@
+.confirm-button{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.confirm-button:hover{
+    background-color: #559329;
+}
+
+
+.confirm-button-disabled{
+    background-color: #747674;
+    color: #ffffff;
+}
+
+.cancel-button{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.cancel-button:hover{
+    background-color: rgb(210, 49, 21);
+}
+
+.blue-button{
+    background-color: var(--lumo-primary-color);
+    color: white;
+}
+

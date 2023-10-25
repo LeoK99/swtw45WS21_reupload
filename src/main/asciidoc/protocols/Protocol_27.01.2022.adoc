@@ -1,0 +1,42 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 27.01.2022
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     17:30 Uhr
+
+__Schriftführer:__ Frode Meier
+
+*Nächstes Treffen:* +
+03.02.2022, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Vorschläge von Stephan für verbesserte Funktionalität
+- Allgemeinen Fortschritt vom Projekt besprochen
+
+== Retrospektive des letzten Sprints
+- Cross-Testing (unsere Aufgabenstellung für Gruppe 46) der anderen Gruppe zugesendet
+- Polishing
+- letzte fehlende Funktionen hinzugefügt
+
+
+== Aktueller Stand
+- Funktionierende Applikation (mit Ausnahme von wenigen Bugs)
+- Pflichtenheft fertig
+- Interne automatische Tests funktionieren
+- Fortführende Tests mit Selenium für das Frontend
+- Cross-Testing zugesendet
+
+== Planung des nächsten Sprints
+- Letzte Fehler beheben 
+- Pollishing diverser UI-Elemente

@@ -1,0 +1,42 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 21.10.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     18:30 Uhr
+
+__Schriftführer:__ Eric Meyer
+
+*Nächstes Treffen:* +
+28.10.2021, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Besprechung des Einarbeitungsprojektes (Online ADR-Editor)
+- Organisatorische Information (Pflichtenheft, Protokoll ...) hinsichtlich der Analyse des Hauptprojektes
+- Hinweise und Tipps für verschiedene IDEs, Tools und Frameworks erhalten
+- Erstes Treffen klärte weitere allgemeine Fragen bezüglich des Projektes
+
+== Retrospektive des letzten Sprints
+- Kein vorheriges Treffen
+
+== Aktueller Stand
+- Beginn der Einarbeitung in die Projektumgebung
+
+== Planung des nächsten Sprints
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |Erstellung des Pflichtenheftes| -           |betrifft alle Mitglieder |offen 
+|===

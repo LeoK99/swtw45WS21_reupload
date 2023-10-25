@@ -1,0 +1,43 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 02.12.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     18:00 Uhr
+
+__Schriftführer:__ Frode Meier
+
+*Nächstes Treffen:* +
+09.12.2021, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Zwischenpräsentation des Projektes (Vorstellung der Funktionen in Zusammenarbeit untereinander)
+- Denkanstöße zur Verbesserung der Endpräsentation
+
+== Retrospektive des letzten Sprints
+- Präsentationsdaten und funktionale Anwendung für Präsentation fertiggestellt
+
+== Aktueller Stand
+- Backend-Programmierung fortgeschritten
+- Frontend-Entwicklung weiter in Arbeit
+- Frontend und Backend Verknüpfungen rudimentär fertiggestellt
+
+== Planung des nächsten Sprints
+- Weiterführung der Entwicklung
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |- | -           |- | -
+|===

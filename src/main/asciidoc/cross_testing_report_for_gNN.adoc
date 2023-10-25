@@ -1,0 +1,77 @@
+= Cross-Testing Feedback
+
+__Durchführende Gruppe:__
+
+__Anwendung von Gruppe:__ swt21w45
+
+
+== Getestetes System
+Die Dokumentation während der Entwicklung eines Softwareprojektes ist kein besonders beliebtes Thema. Dennoch ist Dokumentation das nahezu wichtigste, um den Überblick über ein Projekt zu behalten und um dieses schlussendlich erfolgreich fertigstellen zu können.Um diese Arbeit zu erleichtern wird das Tool ADR-Workbench entworfen. Hiermit soll es möglich sein, sogenannte Architecture Decision Records (kurz ADRs) kollaborativ zu entwerfen. Ein ADR stellt dabei eine beliebige Architekturentscheidung (z.B. es wird nur noch Logger X genutzt) dar, die von allen Mitarbeitern akzeptiert, kommentiert und abgelehnt werden kann.So ist es möglich die Entscheidungen einheitlich zu speichern und immer geordnet abrufen zu können. Die grafische Oberfläche (Web-Applikation) soll dabei eine einfache Bedienbarkeit bereitstellen, um ein möglichst effizientes Arbeiten zu ermöglichen.
+
+== Nutzerkonfiguration
+[options="header"]
+|===
+|Benutzername|Passwort|Berechtigung
+| a | a | alle 
+| admin | a | alle 
+| Ralph | a | keine
+| Rüdiger | a | keine
+| Ant Man | 111 | keine 
+| Iron Man | 111 | keine 
+| Hulk | 111 | keine
+| ... (über Nutzerverwaltung überprüfbar) | 111 | keine
+| Loki | 222 | keine 
+| Groot | 222 | keine 
+| Rocky Raccoon | 222 | keine 
+|===
+
+== Zugang
+
+*Wichtig:* Um auf die Adresse zugreifen zu können, müsst ihr mit dem VPN des TU-Netzwerkes verbunden sein.
+
+Die Applikation ist dann über einen der folgenden Links erreichbar: +
+
+*link:http://172.26.63.114:8080[ADR-Workbench]* +
+
+*link:http://172.26.63.114:8080[]*
+
+
+== Aufgaben
+- Einloggen mit gegebenen Nutzerdaten
+- Änderung von Benutzereigenschaften über die "Account"-Seite
+- Verwaltung der Nutzerrechte (Erstellung, Änderung ...) über die Seite "Nutzerverwaltung"¹
+- Verwaltung von Nutzergruppen (Rechte ändern, Nutzer hinzufügen/entfernen)
+- ADR erstellen über "Create ADR"-Seite
+- Auf mehrere ADRs über "ADR Überblick"-Seite zugreifen
+- ADR Zyklus durchlaufen; genaue Erklärung in Test-ADR (Voting, Kommentieren)
+- ADR-Attribute bearbeiten (Titel, Entscheidung, ...) verändern
+- Ausloggen über Avatar-Icon
+- Zugriff auf ADR-Seiten mit ausgeloggtem Nutzer
+
+Bitte besonders auf den Zyklus eines ADR achten (Erstellung, Bearbeitung, Berechtigungsgruppen ändern, Voting (Voter einladen), Kommentieren, Voting beenden (Übergang zu Approved / Refused))!
+
+¹ benötigt Berechtigung "kann Nutzer verwalten"; 
+
+== Fehler-Report
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="header"]
+|===
+|Pfad |Parameter |Beschreibung |Rückgabe
+| … | … | … | … |
+|===
+
+== Anmerkungen / Verbesserungsvorschläge
+* Optik der Anwendung
+- Theming angelehnt an "Buschmais"-Design
+- evtl. Änderungsbedarf?
+
+* Interaktion mit der Anwendung (Usability)
+- Auf Benutzerfreundlichkeit achten
+- Übersichtlichkeit / Verständlichkeit?
+
+*Was kann sonst noch weiter verbessert werden?*
+
+== Aktuell noch fehlende Features
+- Superseded Zustand aktuell noch nicht erreichbar
+- Nutzergruppen noch nicht löschbar
+

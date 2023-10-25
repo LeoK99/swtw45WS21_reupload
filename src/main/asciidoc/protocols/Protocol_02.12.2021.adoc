@@ -1,0 +1,51 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 02.12.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     18:00 Uhr
+
+__Schriftführer:__ Eric Meyer
+
+*Nächstes Treffen:* +
+09.12.2021, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Vorstellung der geänderten Developer Documentation (Feedback von Karsten Wendt und Stephan Pirnbaum)
+- Erste Erläuterung und Besprechung des link:../test_plan.adoc[Test-Plans]
+- Vorstellung der individuellen Aufgaben und Pflichten seit letztem Meeting
+- Organisatorische Hinweise für die bevorstehende Präsentation
+
+== Retrospektive des letzten Sprints
+- individuelle Aufgaben der Programmierung fortgeführt
+- Developer Documentation fortgeführt und verbessert
+
+== Aktueller Stand
+- Backend-Programmierung fortgeschritten
+- Frontend-Entwicklung weiter in Arbeit
+- fehlende Zusammenarbeit / Integration von Backend und Frontend
+- geringe Integration trotzdem bereits vorhanden
+- Developer Documentation bis auf noch nicht ausfüllbare Abschnitte fertiggestellt (jedoch kontinuierlicher Prozess)
+- Test-Plan bis auf einen Abschnitt ausgefüllt
+
+== Planung des nächsten Sprints
+- Erstellung einer Präsentation für die bevorstehende Vorstellung des Projektes
+- vorführbare Funktionalität und Zusammenspiel zwischen Backend und Frontend
+- Erstellung einer "Geschichte", um bereits vorhandene Funktionen in geeigneter Weise zu präsentieren
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |- | -           |- | -
+|===

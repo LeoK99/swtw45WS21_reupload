@@ -1,0 +1,35 @@
+@startuml
+
+enum Severity {
+    INFO
+    MINOR
+    MAJOR
+    CRITICAL
+    BLOCKER
+}
+
+class JQAGroup
+class JQAConcept
+class JQAConstraint
+
+class JQAElement {
+    ruleId:String
+    provided:boolean
+}
+
+class JQAQueryElement {
+    description:String
+    query:String
+}
+
+JQAGroup --|> JQAElement
+JQAGroup o-- "*" JQAGroup : includesGroups >
+JQAGroup o-- "*" JQAConcept : includesConcepts >
+JQAGroup o-- "*" JQAConstraint : includesConstraints >
+JQAConcept "*" --> "*" JQAConcept : providesConcepts >
+JQAConcept --|> JQAQueryElement
+JQAConstraint --|> JQAQueryElement
+JQAQueryElement --|> JQAElement
+JQAQueryElement "*" --> "*" JQAConcept : requiresConcepts >
+JQAElement --> "1" Severity
+@enduml

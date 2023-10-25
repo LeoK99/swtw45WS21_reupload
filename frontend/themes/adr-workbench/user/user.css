@@ -1,0 +1,10 @@
+.profile-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.sub-heading{
+    font-size: 16px;
+    font-weight: bold;
+}

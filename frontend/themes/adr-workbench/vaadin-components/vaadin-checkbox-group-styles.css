@@ -1,0 +1,3 @@
+:host([focused]:not([disabled])) [part='label']{
+   color: #65b32e;
+}

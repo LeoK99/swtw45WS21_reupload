@@ -1,0 +1,17 @@
+.invited-voter-dialog-invited-voters-layout {
+    background-color: rgba(10, 10, 10, 0.05);
+    border-radius: 5px;
+}
+
+.invited-voter-dialog-user-finder-layout {
+    align-items: start;
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 0;
+}
+
+.invite-voter-dialog-span-class {
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}

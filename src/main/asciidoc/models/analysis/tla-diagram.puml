@@ -1,0 +1,14 @@
+@startuml
+!include ../c4-model/lib/C4_Component.puml
+
+Container(spa, "SPA", "Vaadin, JavaScript", "")
+
+Container(backend, "Server Application", "Maven, Spring Boot, Java")
+
+ContainerDb(db, "DB", "MongoDB", "")
+
+Rel_D(spa, backend, "Uses", "https")
+Rel_D(backend, db, "Reads/Writes", "JDBC")
+
+SHOW_LEGEND()
+@enduml

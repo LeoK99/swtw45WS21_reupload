@@ -1,0 +1,81 @@
+.group-component{
+    background: linear-gradient(to bottom, rgba(46, 137, 179, 0.4), rgba(138, 203, 255, 0.25));
+    box-shadow: 8px 8px 3px rgba(48, 115, 140, 0.4);
+    border-radius: 0.5vmax;
+}
+
+.user-grid{
+    border-color: rgba(46, 137, 179, 0.4);
+    box-shadow: 8px 8px 3px rgba(48, 115, 140, 0.4);
+    border-radius: 0.5vmax;
+}
+
+.group-name-button{
+    background-color: var(--lumo-primary-color);
+    color: white;
+}
+
+.delete-group-button{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.readable-yes-span{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.readable-no-span{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.writable-yes-span{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.writable-no-span{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.votable-yes-span{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.votable-no-span{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.readable-button{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.unreadable-button{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.writable-button{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.unwritable-button{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}
+
+.votable-button{
+    background-color: #65b32e;
+    color: #ffffff;
+}
+
+.unvotable-button{
+    background-color: rgb(238, 56, 21);
+    color: #ffffff;
+}

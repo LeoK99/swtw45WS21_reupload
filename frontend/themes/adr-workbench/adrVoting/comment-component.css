@@ -1,0 +1,21 @@
+.comment-component-main-div{
+    border-radius: 5px;
+}
+
+.comment-component-author-layout{
+
+}
+
+.comment-component-author-label{
+    font-weight: bold;
+}
+
+.comment-component-right-align{
+    background-color: rgba(101, 179, 46, 0.5);
+    margin-left: auto;
+}
+
+.comment-component-left-align{
+    background-color: white;
+    margin-right: auto;
+}

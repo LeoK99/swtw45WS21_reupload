@@ -1,0 +1,37 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 16.12.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:    16:48 Uhr
+
+__Schriftführer:__ Frode Meier
+
+*Nächstes Treffen:* +
+13.01.22, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Vorstellung der neuen Funktionen (z.B. Usercontrol, ADR Berechtigungen, Comments,...)
+- Cross-Testing Vorbereitungen besprochen
+- Klärung offener Fragen zur Collaboration-Engine geklärt
+
+== Retrospektive des letzten Sprints
+- 1.Versuche die Collaboration-Engine zu implementieren
+
+== Aktueller Stand
+- Backend-Programmierung (quasi) abgeschlossen
+- Frontend-Entwicklung fortgeschritten
+
+== Planung des nächsten Sprints
+- vollständige Integration der Collaboration-Engine
+- Erstellung der Cross-Testing Bedürfnisse

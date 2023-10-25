@@ -1,0 +1,38 @@
+.header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-text{
+    width: 100%;
+}
+
+.confirm-button-cd{
+    background-color: rgb(238, 56, 21);
+    color: white;
+}
+
+.cancel-button-cd{
+    background-color: #65b32e;
+    color: white;
+}
+
+.confirm-button-cd:hover{
+    background-color: rgb(210, 49, 21);
+}
+
+.cancel-button-cd:hover{
+    background-color: #559329;
+}
+
+.main-layout{
+
+}
+
+.header-content-layout{
+
+}
+
+.button-layout{
+    background-color: white;
+}

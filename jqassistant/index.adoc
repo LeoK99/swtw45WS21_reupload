@@ -1,0 +1,9 @@
+= ADR Workbench
+
+[[adr-workbench:Default]]
+[role=group, includesGroups="spring-boot:Strict"]
+== Summary
+
+include::jQA:Summary[concepts="*", constraints="*", importedConstraints="*"]
+
+include::jQA:Rules[constraints="*"]

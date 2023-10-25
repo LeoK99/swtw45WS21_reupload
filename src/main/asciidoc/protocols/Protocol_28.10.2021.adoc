@@ -1,0 +1,46 @@
+= Protokoll Gruppe Buschmais (swt21w45)
+
+Treffen am 28.10.2021
+
+Ort:      Online (BBB) +
+Beginn:   16:30 Uhr +
+Ende:     19:00 Uhr
+
+__Schriftführer:__ Frode Meier
+
+*Nächstes Treffen:* +
+04.11.2021, 16:30 Uhr, Online (BBB)
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Leonard Kahl
+- Eric Meyer
+- Yujia Hu
+- Mahmoud Hatem Elnashar
+- Frode Meier (Scrum-Master)
+
+== Bemerkungen
+- Zeitmanagment besprochen
+- Beispiel-Projekte von Eric und Mahmoud angesehen
+- mehrere Elemente des Pflichtenheftes hinsichtlich nötiger Überarbeitungen besprochen
+- Hinweise und Tipps für verschiedene Tools und Frameworks erhalten
+
+== Retrospektive des letzten Sprints
+- teilweise Fertigstellung der Beispielprojekte
+- Pflichtenheft bis "Nicht-Funktionale Anforderungen" erstellt
+
+== Aktueller Stand
+- Beispielprojekte funktionsfähig
+- Pflichtenheft in erster Iteration vorhanden (noch unüberarbeitet)
+
+== Planung des nächsten Sprints
+- Überarbeitung des Pflichtenheftes (bis 04.11.21)
+- Hochladen der Beispielprojekte  (bis 04.11.21)
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel                         |Beschreibung |Verantwortlicher          |Status
+|-     |Erstellung des Pflichtenheftes| -           |betrifft alle Mitglieder |offen 
+|===
